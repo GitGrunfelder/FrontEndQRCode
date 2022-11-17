@@ -1,0 +1,44 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    min-height: 99vh;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.144);
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.text {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.bold {
+    font-size: 19px;
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 10px;
+}
+
+.underWriting {
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 5px;
+}
+
+.attribution {
+    margin-top: auto;
+}
